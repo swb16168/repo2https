@@ -1,0 +1,15 @@
+
+
+server:
+  servlet:
+    context-path: /shirodemo
+
+
+
+shiro:
+  anon-urls:
+    - /demo/login*
+    - /shirodemo/loginout*
+
+  authc-ulrs:
+    - /**
